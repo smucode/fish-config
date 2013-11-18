@@ -18,7 +18,7 @@ function fish_prompt
     end
 
     function _is_git_added
-      echo (git status -s ^/dev/null | sed -e '/^[AMD] .*$/d')
+      echo (git status -s ^/dev/null | sed -e '/^[AMRD] .*$/d')
     end
   #end
 
