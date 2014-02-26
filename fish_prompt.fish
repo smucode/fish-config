@@ -27,7 +27,7 @@ function fish_prompt
   set -l red (set_color -o red)
   set -l blue (set_color -o 2980B9)
   set -l normal (set_color BDC3C7)
-  set -l gray (set_color -o 111)
+  set -l gray (set_color -o 333)
   set -l green (set_color -o 16A085)
 
   set -l arrow "$red∴ "
